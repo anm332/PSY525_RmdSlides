@@ -1,0 +1,65 @@
+---
+title: 'Week 8: HTML Slides in R Markdown'
+author: "Amanda Moeller"
+date: "2/29/2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide title goes here
+
+Slide content goes here
+
+Two hashtags will make a new slide
+
+## Headings
+
+### Top-level subheading = 3 hashtags
+
+#### Second-level subheading = 2 hashtags
+
+## Lists
+
+- Bulleted
+- Lists 
+
+1. Numbered 
+2. List
+
+## Text
+
+*one pair of astrisks for italicized text*
+
+**two pairs for bolded text**
+
+## R code in slides
+```{r}
+# this is how you show/run R code in slides
+
+y <- c(1,2,3,4,5)
+x <- c(30,40,50,60,70)
+plot(x~y)
+
+```
+
+## 
+#### Thinking about creating slides in R Markdown at the beginning of the semester:
+
+![](https://media.giphy.com/media/gHoCSpcPuohiG1H3ey/giphy.gif)
+
+## 
+#### Thinking about creating slides in R Markdown now:
+
+![](https://media.giphy.com/media/4Tkagznwgrv6A4asQb/giphy.gif)
+
+
+
